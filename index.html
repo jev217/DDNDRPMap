@@ -78,8 +78,10 @@
     var map = L.map('map', {
       crs: L.CRS.Simple,
       minZoom: -3,
-      maxBoundsViscosity: 1.0
+      maxBoundsViscosity: 1.0,
+      zoomControl: false
     });
+    L.control.zoom({ position:'bottomright'}).addTo(map);
     var bounds = [
       [0, 0],
       [8192, 8192]
