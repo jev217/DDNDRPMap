@@ -87,7 +87,8 @@
     map.attributionControl.addAttribution('Made By Chakra - NDRP Dark Map');
     //Initialize each base layer
     var atlas = L.imageOverlay('images/gtav.png', bounds).addTo(map);
-    //var satellite = L.imageOverlay('images/GTAV_SATELLITE_8192x8192.png', bounds)
+    // below loads the satelite key toggle.
+    var satellite = L.imageOverlay('images/GTAV_SATELLITE_8192x8192.png', bounds) 
     var road = L.imageOverlay('images/GTAV_ROADMAP_8192x8192.png', bounds)
     map.fitBounds(bounds);
     map.setMaxBounds(bounds)
