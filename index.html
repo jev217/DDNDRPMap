@@ -81,7 +81,8 @@
       maxBoundsViscosity: 1.0,
       zoomControl: false
     });
-    L.control.zoom({ position:'bottomright'}).addTo(map);
+    //sets map zoom controls to 'bottomleft'
+    L.control.zoom({ position:'bottomleft'}).addTo(map);
     var bounds = [
       [0, 0],
       [8192, 8192]
