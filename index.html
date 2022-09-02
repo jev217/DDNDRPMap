@@ -455,6 +455,9 @@
     }).addTo(map);
 
 
+      var Coords = L.latlng(map) 
+      position: 'bottommiddle'
+      
     //When the map's base layer is changed, change the color of the background
     //to match the map
     map.on('baselayerchange', function(layer) {
