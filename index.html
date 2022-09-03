@@ -144,13 +144,13 @@
 
 
 
-
+    // ==================BAND CARS====================
     var bandcars = L.geoJson(null, {
       pointToLayer: function(feature, latlng) {
         //Create icon for marker
         var icn = L.icon({
           iconUrl: 'icons/bandcars.png',
-          iconSize: [48, 48],
+          iconSize: [32, 32],
         });
         var marker = L.marker(latlng, {
           icon: icn
@@ -169,7 +169,7 @@
     var overlay = {
       "<img src='icons/bandhints.png'align='center'width='30' height='30' /> Band Hints": bandhints, 
       "<img src='icons/houserobberies.png'align='center'width='30' height='30'/>House Robberies": houserobberies,
-      "<img src='icons/barbershop.png'align='center'width='30' height='30'/> Band Cars": bandcars,
+      "<img src='icons/bandcars.png'align='center'width='30' height='30'/> Band Cars": bandcars,
     };
     //Create titles for each baselayer to add to the Control
     var baseLayers = {
