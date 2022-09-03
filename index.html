@@ -99,11 +99,11 @@
     map.setMaxBounds(bounds)
 
     // Load each layer from it's corresponding GeoJSON file
-    var ammunation = L.geoJson(null, {
+    var houserobberies = L.geoJson(null, {
       pointToLayer: function(feature, latlng) {
         //Create icon for marker
         var icn = L.icon({
-          iconUrl: 'icons/ammunation.png',
+          iconUrl: 'icons/houserobberies.png',
           iconSize: [48, 48], // size of the icon
         });
         var marker = L.marker(latlng, {
@@ -134,7 +134,7 @@
     $.getJSON("geojson/Ammu-Nation with Range.json", function(data) {
       ammunationwrange.addData(data);
     });
-
+      //BARBERSHOP
     var barbershop = L.geoJson(null, {
       pointToLayer: function(feature, latlng) {
         //Create icon for marker

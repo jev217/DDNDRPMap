@@ -4,9 +4,9 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Downtown Los Santos Ammu-Nation",
-        "imgname":"images/ammunation/downtownlossantos.jpg",
-        "ptype": "Ammu-Nation w/ Gun Range"
+        "name": "House Robbery 1",
+        "imgname":"images/houserobberies/downtownlossantos.jpg",
+        "ptype": "House Robberies"
       },
       "geometry": {
         "type": "Point",
@@ -16,9 +16,9 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Cypress Flats Ammu-Nation",
-        "imgname":"images/ammunation/cypressflats.png",
-        "ptype": "Ammu-Nation w/ Gun Range"
+        "name": "House Robbery 2",
+        "imgname":"images/houserobberies/cypressflats.png",
+        "ptype": "House Robberies"
       },
       "geometry": {
         "type": "Point",
