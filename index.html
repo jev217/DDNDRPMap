@@ -117,11 +117,16 @@
       ammunation.addData(data).addTo(map);
     });
 
-    var ammunationwrange = L.geoJson(null, {
+
+
+
+
+
+    var houserobberies = L.geoJson(null, {
       pointToLayer: function(feature, latlng) {
         //Create icon for marker
         var icn = L.icon({
-          iconUrl: 'icons/ammunationwrange.png',
+          iconUrl: 'icons/houserobberies.png',
           iconSize: [48, 48],
         });
         var marker = L.marker(latlng, {
@@ -131,9 +136,14 @@
         return marker;
       }
     })
-    $.getJSON("geojson/Ammu-Nation with Range.json", function(data) {
-      ammunationwrange.addData(data);
+    $.getJSON("geojson/House Robberies.json", function(data) {
+      houserobberies.addData(data);
     });
+
+
+
+
+
 
     var barbershop = L.geoJson(null, {
       pointToLayer: function(feature, latlng) {
@@ -158,7 +168,7 @@
     //Create titles for each layer with mini icons to add to the Control
     var overlay = {
       "<img src='icons/ammunation.png'align='center'width='30' height='30' /> Ammu-Nation": ammunation, 
-      "<img src='icons/ammunationwrange.png'align='center'width='30' height='30'/>Ammu-Nation w/ Gun Range": ammunationwrange,
+      "<img src='icons/ammunationwrange.png'align='center'width='30' height='30'/>House Robberies": houserobberies,
       "<img src='icons/barbershop.png'align='center'width='30' height='30'/> Barber Shop": barbershop,
     };
     //Create titles for each baselayer to add to the Control
