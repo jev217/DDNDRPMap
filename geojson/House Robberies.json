@@ -120,8 +120,42 @@
         "type": "Point",
         "coordinates": [4291, 5629]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "House Robbery Paleto 1",
+        "imgname":"images/houserobberies/cypressflats.png",
+        "ptype": "House Robberies"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3463, 6801]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "House Robbery Paleto 2",
+        "imgname":"images/houserobberies/cypressflats.png",
+        "ptype": "House Robberies"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3690, 6968]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "House Robbery Paleto 3",
+        "imgname":"images/houserobberies/cypressflats.png",
+        "ptype": "House Robberies"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3748, 7057]
+      }
     }
-
-    
   ]
 }
