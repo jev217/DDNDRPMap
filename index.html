@@ -438,7 +438,10 @@
       collapsed: true,
       sortLayers: true
     }).addTo(map);
-    L.control.layers.remove();
+
+
+    layerControls.addTo(map)    
+    layerControls.remove()
 
     //Add GTAV logo to lower left hand corner
     L.Control.Watermark = L.Control.extend({
