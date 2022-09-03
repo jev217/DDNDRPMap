@@ -407,7 +407,7 @@
 
     //Create titles for each layer with mini icons to add to the Control
     var overlay = {
-      "<img src='icons/ammunation.png'align='center'width='30' height='30' /> Ammu-Nation": ammunation,
+      "<img src='icons/ammunation.png'align='center'width='30' height='30' /> Ammu-Nation": ammunation, 
       "<img src='icons/ammunationwrange.png'align='center'width='30' height='30'/>Ammu-Nation w/ Gun Range": ammunationwrange,
       "<img src='icons/barbershop.png'align='center'width='30' height='30'/> Barber Shop": barbershop,
       "<img src='icons/repairshop.png'align='center'width='30' height='30'/> Repair Shop": repair,
@@ -436,7 +436,6 @@
     var over = L.control.layers(baseLayers, overlay, {
       collapsed: false,
       sortLayers: true,
-      ammunation: false
     }).addTo(map);
 
     //Add GTAV logo to lower left hand corner
