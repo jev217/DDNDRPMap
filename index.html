@@ -107,9 +107,9 @@
           iconUrl: 'icons/ammunation.png',
           iconSize: [48, 48], // size of the icon
         });
+        marker: false
         var marker = L.marker(latlng, {
-          icon: icn,
-          marker: false
+          icon: icn
         });
         marker.bindPopup("<font color=white><h4>" + feature.properties.name + '</h4>' + "<img src='" + feature.properties.imgname + "' class='popupImage'></font>");
         return marker;
