@@ -13,7 +13,7 @@
         "coordinates": [3969, 1512]
       }
     },
-    {
+    { 
       "type": "Feature",
       "properties": {
         "name": "House Robbery 2 Jamestown",
@@ -22,31 +22,31 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [3974, 1453]
+        "coordinates": [3974, 1453] 
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "House Robbery 2 Jamestown",
+        "name": "House Robbery Mirror Park 1",
         "imgname":"images/houserobberies/cypressflats.png",
         "ptype": "House Robberies"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [3974, 1453]
+        "coordinates": []
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "House Robbery 2 Jamestown",
+        "name": "House Robbery Mirror Park 2",
         "imgname":"images/houserobberies/cypressflats.png",
         "ptype": "House Robberies"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [3974, 1453]
+        "coordinates": []
       }
     }
     
