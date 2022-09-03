@@ -1,4 +1,4 @@
-House Robberies Coords
+HOUSE ROBBERY COORDS
 
 MIRROR PARK
 1. [4317, 2318]
@@ -18,3 +18,23 @@ PALETO
 1. [3463, 6801]
 2. [3690, 6968]
 3. [3748, 7057]
+=========================================
+=========================================
+BAND HINT LOCATIONS
+1.[] Shadowcade 
+2.[] Cypress Flats
+3.[] Jamestown
+4.[] Lil Seoul Subway
+5.[] Lil Seoul Noodle Shop
+6.[] Under Del Perro Pier
+7.[] Construction Site 
+
+BAND CAR LOCATIONS
+1.[]  Washed Up MC's 
+2.[]  Resting for Flight
+3.[]  Smackdab Downtown
+4.[]  Southside Laundry
+5.[]  Great View of Beach
+6.[]  Mirror Park Cold Beer
+7.  
+

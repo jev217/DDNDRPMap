@@ -1,6 +1,7 @@
 {
   "type": "FeatureCollection",
-  "features": [{
+  "features": [
+    {
       "type": "Feature",
       "properties": {
         "name": "Sandy Shores Ammu-Nation",
@@ -11,7 +12,8 @@
         "type": "Point",
         "coordinates": [4873.25, 5146.75]
       }
-    }, {
+    }, 
+    {
       "type": "Feature",
       "properties": {
         "name": "Hawick Ammu-Nation",
@@ -22,7 +24,8 @@
         "type": "Point",
         "coordinates": [3921, 2638.5]
       }
-    }, {
+    }, 
+    {
       "type": "Feature",
       "properties": {
         "name": "La Mesa Ammu-Nation",
