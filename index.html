@@ -96,6 +96,7 @@
     // below loads the satelite key toggle.
     var satellite = L.imageOverlay('images/GTAV_SATELLITE_8192x8192.png', bounds) 
     var road = L.imageOverlay('images/GTAV_ROADMAP_8192x8192.png', bounds)
+    var contrast = L.imageOverlay('images/GTAVContrast_8192x8192.png', bounds)
     map.fitBounds(bounds);
     map.setMaxBounds(bounds)
 
@@ -176,7 +177,8 @@
     var baseLayers = {
       "Atlas": atlas,
       "Road": road,
-      "Satellite": satellite //if u add the satelite file back, it will load in correctly.
+      "Satellite": satellite,
+      "Contrast": contrast //if u add the satelite file back, it will load in correctly.
 
     }
     //Create Control layer and add to map
@@ -214,6 +216,9 @@
       }
       if (layer.name == "Atlas") {
         document.getElementById("map").style.background = "#0fa8d2";
+      }
+      if (layer.name == "Contrast"){
+        document.getElementById("map").style.background = "#000000";
       }
     });
   </script>
