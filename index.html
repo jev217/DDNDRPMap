@@ -111,6 +111,7 @@
         });
         marker.bindPopup("<font color=white><h4>" + feature.properties.name + '</h4>' + "<img src='" + feature.properties.imgname + "' class='popupImage'></font>");
         return marker;
+        pointToLayer: false;
       }
     })
     $.getJSON("geojson/Ammu-Nation.json", function(data) {
