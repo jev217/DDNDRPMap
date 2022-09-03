@@ -138,7 +138,7 @@
       }
     })
     $.getJSON("geojson/House Robberies.json", function(data) {
-      houserobberies.addData(data);
+      houserobberies.addData(data).addTo(map);
     });
 
 
@@ -161,7 +161,7 @@
       }
     })
     $.getJSON("geojson/Band Cars.json", function(data) {
-      bandcars.addData(data);
+      bandcars.addData(data).addTo(map);
     });
 
     
