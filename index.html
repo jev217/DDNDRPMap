@@ -104,7 +104,7 @@
         //Create icon for marker
         var icn = L.icon({
           iconUrl: 'icons/bandhints.png',
-          iconSize: [48, 48], // size of the icon
+          iconSize: [32, 32], // size of the icon
         });
         var marker = L.marker(latlng, {
           icon: icn
@@ -113,7 +113,7 @@
         return marker;
       }
     })
-    $.getJSON("geojson/Ammu-Nation.json", function(data) {
+    $.getJSON("geojson/Band Hints.json", function(data) {
       bandhints.addData(data).addTo(map);
     });
 
