@@ -111,7 +111,6 @@
         });
         marker.bindPopup("<font color=white><h4>" + feature.properties.name + '</h4>' + "<img src='" + feature.properties.imgname + "' class='popupImage'></font>");
         return marker;
-        return ammunation;
       }
     })
     $.getJSON("geojson/Ammu-Nation.json", function(data) {
@@ -435,7 +434,7 @@
     }
     //Create Control layer and add to map
     var over = L.control.layers(baseLayers, overlay, {
-      collapsed: true,
+      collapsed: false,
       sortLayers: true
     }).addTo(map);
 
