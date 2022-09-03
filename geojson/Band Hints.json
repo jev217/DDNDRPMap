@@ -10,24 +10,82 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [4230, 2066]
       }
     }, 
     {
       "type": "Feature",
       "properties": {
-        "name": "Hawick Ammu-Nation",
+        "name": "Cypress Flats",
         "imgname":"",
         "ptype": "Band Hints"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [4306, 1121]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamestown",
+        "imgname":"",
+        "ptype": "Band Hints"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4110, 1373]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lil Seoul Subway",
+        "imgname":"",
+        "ptype": "Band Hints"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3428, 2189]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lil Seoul Noodle Shop",
+        "imgname":"",
+        "ptype": "Band Hints"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3330, 1865]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Under Del Perro Pier",
+        "imgname":"",
+        "ptype": "Band Hints"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2666, 1982]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Construction Site ",
+        "imgname":"",
+        "ptype": "Band Hints"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3785, 2428]
       }
     }
     
-
-
 
 
 
