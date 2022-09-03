@@ -99,7 +99,6 @@
     map.setMaxBounds(bounds)
 
     // Load each layer from it's corresponding GeoJSON file
-    ammunation = false;
     var ammunation = L.geoJson(null, {
       pointToLayer: function(feature, latlng) {
         //Create icon for marker
