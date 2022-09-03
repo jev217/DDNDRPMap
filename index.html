@@ -83,8 +83,7 @@
       crs: L.CRS.Simple,
       minZoom: -3,
       maxBoundsViscosity: 1.0,
-      zoomControl: false,
-      marker: false
+      zoomControl: false
     });
     //sets map zoom controls to 'bottomleft'
     L.control.zoom({ position:'bottomleft'}).addTo(map);
@@ -110,7 +109,8 @@
           iconSize: [48, 48], // size of the icon
         });
         var marker = L.marker(latlng, {
-          icon: icn
+          icon: icn,
+          marker: false
         });
         marker.bindPopup("<font color=white><h4>" + feature.properties.name + '</h4>' + "<img src='" + feature.properties.imgname + "' class='popupImage'></font>");
         return marker;
