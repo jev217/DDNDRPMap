@@ -4,28 +4,75 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Bob Mulét Barbershop",
-        "imgname":"images/barbershop/bobmulet.jpg",
-        "ptype": "Barber Shop"
+        "name": "Washed Up MC's",
+        "imgname":"",
+        "ptype": "Band Cars"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [3217, 2545.5]
+        "coordinates": [3845, 2881]
       }
     }, 
     {
       "type": "Feature",
       "properties": {
-        "name": "Herr Kutz Barber",
-        "imgname":"images/barbershop/davisherrkutz.jpg",
-        "ptype": "Barber Shop"
+        "name": "Resting for Flight",
+        "imgname":"",
+        "ptype": "Band Cars"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [3845.5, 1541.75]
+        "coordinates": [3311, 1197]
       }
-    }, 
-    
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Smackdab Downtown",
+        "imgname":"",
+        "ptype": "Band Cars"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3777, 2077]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Southside Laundry",
+        "imgname":"",
+        "ptype": "Band Cars"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3879, 1672]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Great View of Beach",
+        "imgname":"",
+        "ptype": "Band Cars"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2454, 2478]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mirror Park Cold Beer",
+        "imgname":"",
+        "ptype": "Band Cars"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4473, 2147]
+      }
+    }
 
 
 
@@ -35,6 +82,6 @@
 
 
 
-    
+
   ]
 }
