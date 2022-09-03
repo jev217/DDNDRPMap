@@ -1,0 +1,40 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bob Mulét Barbershop",
+        "imgname":"images/barbershop/bobmulet.jpg",
+        "ptype": "Barber Shop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3217, 2545.5]
+      }
+    }, 
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Herr Kutz Barber",
+        "imgname":"images/barbershop/davisherrkutz.jpg",
+        "ptype": "Barber Shop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3845.5, 1541.75]
+      }
+    }, 
+    
+
+
+
+
+
+
+
+
+
+    
+  ]
+}

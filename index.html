@@ -99,6 +99,9 @@
     map.setMaxBounds(bounds)
 
     // Load each layer from it's corresponding GeoJSON file
+
+
+    //============BAND HINTS===============
     var bandhints = L.geoJson(null, {
       pointToLayer: function(feature, latlng) {
         //Create icon for marker
@@ -116,13 +119,10 @@
     $.getJSON("geojson/Band Hints.json", function(data) {
       bandhints.addData(data).addTo(map);
     });
-
-
-
-
-
-
-    var houserobberies = L.geoJson(null, {
+      
+    
+    //=======HOUSE ROBBERIES==========
+      var houserobberies = L.geoJson(null, {
       pointToLayer: function(feature, latlng) {
         //Create icon for marker
         var icn = L.icon({
@@ -145,11 +145,11 @@
 
 
 
-    var barbershop = L.geoJson(null, {
+    var bandcars = L.geoJson(null, {
       pointToLayer: function(feature, latlng) {
         //Create icon for marker
         var icn = L.icon({
-          iconUrl: 'icons/barbershop.png',
+          iconUrl: 'icons/bandcars.png',
           iconSize: [48, 48],
         });
         var marker = L.marker(latlng, {
@@ -159,17 +159,17 @@
         return marker;
       }
     })
-    $.getJSON("geojson/Barber Shop.json", function(data) {
-      barbershop.addData(data);
+    $.getJSON("geojson/Band Cars.json", function(data) {
+      bandcars.addData(data);
     });
 
     
 
     //Create titles for each layer with mini icons to add to the Control
     var overlay = {
-      "<img src='icons/bandhints.png'align='center'width='30' height='30' /> Band Hints 1": bandhints, 
+      "<img src='icons/bandhints.png'align='center'width='30' height='30' /> Band Hints": bandhints, 
       "<img src='icons/houserobberies.png'align='center'width='30' height='30'/>House Robberies": houserobberies,
-      "<img src='icons/barbershop.png'align='center'width='30' height='30'/> Barber Shop": barbershop,
+      "<img src='icons/barbershop.png'align='center'width='30' height='30'/> Band Cars": bandcars,
     };
     //Create titles for each baselayer to add to the Control
     var baseLayers = {
