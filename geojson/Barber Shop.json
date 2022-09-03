@@ -1,6 +1,7 @@
 {
   "type": "FeatureCollection",
-  "features": [{
+  "features": [
+    {
       "type": "Feature",
       "properties": {
         "name": "Bob Mulét Barbershop",
@@ -11,7 +12,8 @@
         "type": "Point",
         "coordinates": [3217, 2545.5]
       }
-    }, {
+    }, 
+    {
       "type": "Feature",
       "properties": {
         "name": "Herr Kutz Barber",
@@ -22,7 +24,8 @@
         "type": "Point",
         "coordinates": [3845.5, 1541.75]
       }
-    }, {
+    }, 
+    {
       "type": "Feature",
       "properties": {
         "name": "Beach Combover Barbers",

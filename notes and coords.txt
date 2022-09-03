@@ -21,20 +21,20 @@ PALETO
 =========================================
 =========================================
 BAND HINT LOCATIONS
-1.[] Shadowcade 
-2.[] Cypress Flats
-3.[] Jamestown
-4.[] Lil Seoul Subway
-5.[] Lil Seoul Noodle Shop
-6.[] Under Del Perro Pier
-7.[] Construction Site 
+1.[4230, 2066] Shadowcade 
+2.[4306, 1121] Cypress Flats
+3.[4110, 1373] Jamestown
+4.[3428, 2189] Lil Seoul Subway
+5.[3330, 1865] Lil Seoul Noodle Shop
+6.[2666, 1982] Under Del Perro Pier
+7.[3785, 2428] Construction Site 
 
 BAND CAR LOCATIONS
-1.[]  Washed Up MC's 
-2.[]  Resting for Flight
-3.[]  Smackdab Downtown
-4.[]  Southside Laundry
-5.[]  Great View of Beach
-6.[]  Mirror Park Cold Beer
+1.[3845, 2881]  Washed Up MC's 
+2.[3311, 1197]  Resting for Flight
+3.[3777, 2077]  Smackdab Downtown
+4.[3879, 1672]  Southside Laundry
+5.[2454, 2478]  Great View of Beach
+6.[4473, 2147]  Mirror Park Cold Beer
 7.  
 
