@@ -435,7 +435,8 @@
     //Create Control layer and add to map
     var over = L.control.layers(baseLayers, overlay, {
       collapsed: false,
-      sortLayers: true
+      sortLayers: true,
+      ammunation:false
     }).addTo(map);
 
     //Add GTAV logo to lower left hand corner
