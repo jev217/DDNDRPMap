@@ -34,7 +34,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [4317, 2318]
       }
     },
     {
@@ -46,15 +46,81 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [4394, 2368]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "House Robbery Mirror Park 3",
+        "imgname":"images/houserobberies/cypressflats.png",
+        "ptype": "House Robberies"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4444, 2339]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "House Robbery Mirror Park 4",
+        "imgname":"images/houserobberies/cypressflats.png",
+        "ptype": "House Robberies"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4380, 2326]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "House Robbery Mirror Park 5",
+        "imgname":"images/houserobberies/cypressflats.png",
+        "ptype": "House Robberies"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4634, 2318]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "House Robbery Mirror Park 6",
+        "imgname":"images/houserobberies/cypressflats.png",
+        "ptype": "House Robberies"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4676, 2296]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "House Robbery Mirror Park 7",
+        "imgname":"images/houserobberies/cypressflats.png",
+        "ptype": "House Robberies"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4614, 2287]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "House Robbery Mirror Park 8",
+        "imgname":"images/houserobberies/cypressflats.png",
+        "ptype": "House Robberies"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4291, 5629]
       }
     }
-    
-
-
-
-
-
 
     
   ]
