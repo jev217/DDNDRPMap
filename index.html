@@ -15,7 +15,7 @@
     .leaflet-control-layers-expanded {
       background-color: #6464645d;
 
-      background-size: contain;
+      background-size: 100%;
       background-repeat: no-repeat;
       font-family: fantasy; 
       color: #ffffff;
@@ -83,7 +83,8 @@
       crs: L.CRS.Simple,
       minZoom: -3,
       maxBoundsViscosity: 1.0,
-      zoomControl: false
+      zoomControl: false,
+      marker: false
     });
     //sets map zoom controls to 'bottomleft'
     L.control.zoom({ position:'bottomleft'}).addTo(map);
@@ -111,7 +112,6 @@
         var marker = L.marker(latlng, {
           icon: icn
         });
-        marker = false
         marker.bindPopup("<font color=white><h4>" + feature.properties.name + '</h4>' + "<img src='" + feature.properties.imgname + "' class='popupImage'></font>");
         return marker;
       }
