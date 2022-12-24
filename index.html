@@ -157,7 +157,7 @@
         var marker = L.marker(latlng, {
           icon: icn
         });
-        marker.bindPopup("<font color=white><h4>" + feature.properties.name + feature.properties.desc +'</h4>' + "<img src='" + feature.properties.imgname + "' class='popupImage'></font>");
+        marker.bindPopup("<font color=white><h4>" + feature.properties.name + '</h4>' + '<h5>' + feature.properties.desc +'</h5>' + "<img src='" + feature.properties.imgname + "' class='popupImage'></font>");
         return marker;
       }
     })
