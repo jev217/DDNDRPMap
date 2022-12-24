@@ -18,6 +18,7 @@
       "type": "Feature",
       "properties": {
         "name": "Resting for Flight",
+        "desc": "",
         "imgname":"",
         "ptype": "Band Cars"
       },
@@ -30,6 +31,7 @@
       "type": "Feature",
       "properties": {
         "name": "Smackdab Downtown",
+        "desc": "",
         "imgname":"",
         "ptype": "Band Cars"
       },
@@ -42,6 +44,7 @@
       "type": "Feature",
       "properties": {
         "name": "Southside Laundry",
+        "desc": "",
         "imgname":"",
         "ptype": "Band Cars"
       },
@@ -54,6 +57,7 @@
       "type": "Feature",
       "properties": {
         "name": "Watches the Boats Leave",
+        "desc": "",
         "imgname":"",
         "ptype": "Band Cars"
       },
@@ -66,6 +70,7 @@
       "type": "Feature",
       "properties": {
         "name": "Mirror Park Cold Beer",
+        "desc": "",
         "imgname":"",
         "ptype": "Band Cars"
       },
@@ -78,6 +83,7 @@
       "type": "Feature",
       "properties": {
         "name": "Electronic Company",
+        "desc": "",
         "imgname":"",
         "ptype": "Band Cars"
       },

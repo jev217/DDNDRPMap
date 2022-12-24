@@ -5,6 +5,7 @@
         "type": "Feature",
         "properties": {
           "name": "Jewelry Heist Grapeseed",
+          "desc": "",
           "imgname":"",
           "ptype": "Jewelry Heist"
         },
@@ -17,6 +18,7 @@
         "type": "Feature",
         "properties": {
           "name": "Jewelry Heist Paleto",
+          "desc": "",
           "imgname":"",
           "ptype": "Jewelry Heist"
         },
@@ -29,6 +31,7 @@
         "type": "Feature",
         "properties": {
           "name": "Jewelry Heist Vespucci",
+          "desc": "",
           "imgname":"",
           "ptype": "Jewelry Heist"
         },
