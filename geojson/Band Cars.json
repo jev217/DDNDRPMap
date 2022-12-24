@@ -72,6 +72,18 @@
         "type": "Point",
         "coordinates": [4473, 2147]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Electronic Company",
+        "imgname":"",
+        "ptype": "Band Cars"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3218, 2173]
+      }
     }
 
 
