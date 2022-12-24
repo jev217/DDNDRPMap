@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jamestown HR 1",
-        "desc": " ",
+        "desc": "Alarm System: No",
         "imgname":"images/houserobberies/downtownlossantos.jpg",
         "ptype": "House Robberies"
       },
@@ -18,7 +18,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jamestown HR 2",
-        "desc": " ",
+        "desc": "Alarm System: No ",
         "imgname":"",
         "ptype": "House Robberies"
       },
@@ -31,7 +31,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jamestown HR 3",
-        "desc": " ",
+        "desc": "Alarm System: No",
         "imgname":"",
         "ptype": "House Robberies"
       },
@@ -44,7 +44,7 @@
       "type": "Feature",
       "properties": {
         "name": "Mirror Park HR 1",
-        "desc": " ",
+        "desc": "Alarm System: Yes",
         "imgname":"",
         "ptype": "House Robberies"
       },
@@ -57,7 +57,7 @@
       "type": "Feature",
       "properties": {
         "name": "Mirror Park HR 2",
-        "desc": " ",
+        "desc": "Alarm System: Yes",
         "imgname":"",
         "ptype": "House Robberies"
       },
@@ -70,7 +70,7 @@
       "type": "Feature",
       "properties": {
         "name": "Mirror Park HR 3",
-        "desc": " ",
+        "desc": "Alarm System: Yes",
         "imgname":"",
         "ptype": "House Robberies"
       },
@@ -83,7 +83,7 @@
       "type": "Feature",
       "properties": {
         "name": "Mirror Park HR 4",
-        "desc": " ",
+        "desc": "Alarm System: Yes",
         "imgname":"",
         "ptype": "House Robberies"
       },
@@ -96,7 +96,7 @@
       "type": "Feature",
       "properties": {
         "name": "Mirror Park HR 5",
-        "desc": " ",
+        "desc": "Alarm System: Yes",
         "imgname":"",
         "ptype": "House Robberies"
       },
@@ -109,7 +109,7 @@
       "type": "Feature",
       "properties": {
         "name": "Mirror Park HR 6",
-        "desc": " ",
+        "desc": "Alarm System: Yes",
         "imgname":"",
         "ptype": "House Robberies"
       },
@@ -122,7 +122,7 @@
       "type": "Feature",
       "properties": {
         "name": "Mirror Park HR 7",
-        "desc": " ",
+        "desc": "Alarm System: Yes",
         "imgname":"",
         "ptype": "House Robberies"
       },
@@ -135,7 +135,7 @@
       "type": "Feature",
       "properties": {
         "name": "Mirror Park HR 8",
-        "desc": " ",
+        "desc": "Alarm System: Yes",
         "imgname":"",
         "ptype": "House Robberies"
       },
@@ -148,7 +148,7 @@
       "type": "Feature",
       "properties": {
         "name": "Mirror Park HR 9",
-        "desc": " ",
+        "desc": "Alarm System: Yes",
         "imgname":"",
         "ptype": "House Robberies"
       },
@@ -161,7 +161,7 @@
       "type": "Feature",
       "properties": {
         "name": "Mirror Park HR 10",
-        "desc": " ",
+        "desc": "Alarm System: Yes",
         "imgname":"",
         "ptype": "House Robberies"
       },
@@ -174,7 +174,7 @@
       "type": "Feature",
       "properties": {
         "name": "Mirror Park HR 11",
-        "desc": " ",
+        "desc": "Alarm System: Yes",
         "imgname":"",
         "ptype": "House Robberies"
       },
@@ -193,7 +193,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [3463, 6801]
+        "coordinates": []
       }
     },
     {
@@ -206,7 +206,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [3690, 6968]
+        "coordinates": []
       }
     },
     {
@@ -219,7 +219,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [3748, 7057]
+        "coordinates": []
       }
     }
   ]
