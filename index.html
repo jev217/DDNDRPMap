@@ -190,15 +190,7 @@
 
 
 
-      var test = "test";
-
-
-
-
-
-
-
-
+    
 
 
 
@@ -224,17 +216,11 @@
       "Contrast": contrast 
    };
 
-   var testlayer = {
-    "test1":test,
-    "test2":test,
-    "test3":test
-
-   }
 
 
 
     //Create Control layer and add to map
-    var over = L.control.layers(baseLayers, overlay, testlayer, {
+    var over = L.control.layers(baseLayers, overlay, {
       collapsed: false,
       sortLayers: true,
     }).addTo(map);
