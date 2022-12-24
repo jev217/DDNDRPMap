@@ -1,6 +1,7 @@
 HOUSE ROBBERY COORDS
 
-MIRROR PARK
+=======================================
+==MIRROR PARK==
 1.   [4436, 2195] 
 2.   [4391, 2312]
 3.   [4350, 2351]
@@ -12,20 +13,21 @@ MIRROR PARK
 9.   [4565, 2212]
 10.  [4391, 2500]
 11.  [4342, 2534]
-
-
-
 =================================
-JAMESTOWN
+==JAMESTOWN==
 1. [4011, 1430]
 2. [4036, 1520]
 3. [4099, 1495]
 =================================
-PALETO 
+==PALETO== 
 1. [3463, 6801]
 2. [3690, 6968]
 3. [3748, 7057]
-
+=====VESPUCCI CANALS======
+(Still need to check all houses in VESPUCCI)
+1.
+2.
+3.
 
 
 
@@ -41,7 +43,7 @@ BAND HINT LOCATIONS
 5.[3330, 1865] Lil Seoul Noodle Shop
 6.[2666, 1982] Under Del Perro Pier
 7.[3785, 2428] Construction Site
-
+========================================
 BAND CAR LOCATIONS
 1.[3845, 2881]  Washed Up MC's 
 2.[3311, 1197]  Resting for Flight
@@ -54,9 +56,19 @@ BAND CAR LOCATIONS
 =============================
 CHOP SHOP LOCATIONS
 =============================
-
+1.[]
+2.[]
 
 
 =======================================
 Black Market Exchange (Jewelry Robbery)
 =======================================
+1.[]
+
+
+==============================
+JEWELRY ROBBERYS
+===============================
+1.[]
+2.[]
+3.[]
