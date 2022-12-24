@@ -52,13 +52,13 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Great View of Beach",
+        "name": "Watches the Boats Leave",
         "imgname":"",
         "ptype": "Band Cars"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [2454, 2478]
+        "coordinates": [3154, 6529]
       }
     },
     {
