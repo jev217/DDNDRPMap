@@ -28,97 +28,133 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "House Robbery Mirror Park 1",
+        "name": "Mirror Park HR 1",
         "imgname":"images/houserobberies/cypressflats.png",
         "ptype": "House Robberies"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [4317, 2318]
+        "coordinates": [4436, 2195]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "House Robbery Mirror Park 2",
+        "name": "Mirror Park HR 2",
         "imgname":"images/houserobberies/cypressflats.png",
         "ptype": "House Robberies"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [4394, 2368]
+        "coordinates": [4391, 2312]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "House Robbery Mirror Park 3",
+        "name": "Mirror Park HR 3",
         "imgname":"images/houserobberies/cypressflats.png",
         "ptype": "House Robberies"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [4444, 2339]
+        "coordinates": [4350, 2351]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "House Robbery Mirror Park 4",
+        "name": "Mirror Park HR 4",
         "imgname":"images/houserobberies/cypressflats.png",
         "ptype": "House Robberies"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [4380, 2326]
+        "coordinates": [4428, 2357]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "House Robbery Mirror Park 5",
+        "name": "Mirror Park HR 5",
         "imgname":"images/houserobberies/cypressflats.png",
         "ptype": "House Robberies"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [4634, 2318]
+        "coordinates": [4480, 2346]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "House Robbery Mirror Park 6",
+        "name": "Mirror Park HR 6",
         "imgname":"images/houserobberies/cypressflats.png",
         "ptype": "House Robberies"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [4676, 2296]
+        "coordinates": [4578, 2328]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "House Robbery Mirror Park 7",
+        "name": "Mirror Park HR 7",
         "imgname":"images/houserobberies/cypressflats.png",
         "ptype": "House Robberies"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [4614, 2287]
+        "coordinates": [4648, 2314]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "House Robbery Mirror Park 8",
+        "name": "Mirror Park HR 8",
         "imgname":"images/houserobberies/cypressflats.png",
         "ptype": "House Robberies"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [4291, 2563]
+        "coordinates": [4679, 2295]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mirror Park HR 9",
+        "imgname":"",
+        "ptype": "House Robberies"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4565, 2212]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mirror Park HR 10",
+        "imgname":"",
+        "ptype": "House Robberies"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4391, 2500]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mirror Park HR 11",
+        "imgname":"",
+        "ptype": "House Robberies"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4342, 2534]
       }
     },
     {

@@ -23,12 +23,28 @@ HOUSE ROBBERY COORDS
 1. [3463, 6801]
 2. [3690, 6968]
 3. [3748, 7057]
-=====VESPUCCI CANALS======
+=================================
+==VESPUCCI CANALS==
 (Still need to check all houses in VESPUCCI)
 1.
 2.
 3.
 ==============================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
