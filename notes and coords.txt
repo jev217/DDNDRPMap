@@ -92,6 +92,6 @@ Black Market Exchange (Jewelry Robbery)
 ==============================
 JEWELRY HEISTS
 ===============================
-1.[]
-2.[]
-3.[]
+1.[4846, 5887] Grapeseed
+2.[3505, 6657] Paleto
+3.[3178, 1912] Vespucci
