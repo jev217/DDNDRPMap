@@ -4,7 +4,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "House Robbery 1 Jamestown",
+        "name": "Jamestown HR 1",
         "imgname":"images/houserobberies/downtownlossantos.jpg",
         "ptype": "House Robberies"
       },
@@ -16,7 +16,7 @@
     { 
       "type": "Feature",
       "properties": {
-        "name": "House Robbery 2 Jamestown",
+        "name": "Jamestown HR 2",
         "imgname":"images/houserobberies/cypressflats.png",
         "ptype": "House Robberies"
       },
