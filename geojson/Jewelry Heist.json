@@ -4,17 +4,39 @@
       {
         "type": "Feature",
         "properties": {
-          "name": "Jewelry Heist 1",
+          "name": "Jewelry Heist Grapeseed",
           "imgname":"",
           "ptype": "Jewelry Heist"
         },
         "geometry": {
           "type": "Point",
-          "coordinates": [3845, 2900]
+          "coordinates": [4846, 5887]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Jewelry Heist Paleto",
+          "imgname":"",
+          "ptype": "Jewelry Heist"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [3505, 6657]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Jewelry Heist Vespucci",
+          "imgname":"",
+          "ptype": "Jewelry Heist"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [3178, 1912]
         }
       }
-
-
 
 
 
