@@ -165,7 +165,40 @@
       bandcars.addData(data);
     });
 
-    
+    // ==================JEWELRY HEIST====================
+    var jewelryheist = L.geoJson(null, {
+      pointToLayer: function(feature, latlng) {
+        //Create icon for marker
+        var icn = L.icon({
+          iconUrl: 'icons/jewelryheist.png',
+          iconSize: [32, 32],
+        });
+        var marker = L.marker(latlng, {
+          icon: icn
+        });
+        marker.bindPopup("<font color=white><h4>" + feature.properties.name + '</h4>' + "<img src='" + feature.properties.imgname + "' class='popupImage'></font>");
+        return marker;
+      }
+    })
+    $.getJSON("geojson/Band Cars.json", function(data) {
+      bandcars.addData(data);
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     //Create titles for each layer with mini icons to add to the Control, add new check toggles here
     var overlay = {
