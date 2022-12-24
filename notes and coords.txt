@@ -19,10 +19,14 @@ HOUSE ROBBERY COORDS
 2. [4036, 1520]
 3. [4099, 1495]
 =================================
+==SANDY SHORES==
+
+==GRAPESEED==
+
 ==PALETO== 
-1. [3463, 6801]
-2. [3690, 6968]
-3. [3748, 7057]
+1. []
+2. []
+3. []
 =================================
 ==VESPUCCI CANALS==
 (Still need to check all houses in VESPUCCI)

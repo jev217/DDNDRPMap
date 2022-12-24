@@ -172,7 +172,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "House Robbery Paleto 1",
+        "name": "Paleto HR 1",
         "imgname":"images/houserobberies/cypressflats.png",
         "ptype": "House Robberies"
       },
@@ -184,7 +184,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "House Robbery Paleto 2",
+        "name": "Paleto HR 2",
         "imgname":"images/houserobberies/cypressflats.png",
         "ptype": "House Robberies"
       },
@@ -196,7 +196,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "House Robbery Paleto 3",
+        "name": "Paleto HR 3",
         "imgname":"images/houserobberies/cypressflats.png",
         "ptype": "House Robberies"
       },
