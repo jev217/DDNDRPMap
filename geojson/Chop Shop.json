@@ -1,0 +1,32 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Chop Shop Grapeseed",
+          "desc": "",
+          "imgname":"",
+          "ptype": "Chop Shop"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [4640, 5573]
+        }
+      }, 
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Chopshop Oil Field",
+          "desc": " ",
+          "imgname":"",
+          "ptype": "Chop Shop"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [4787, 1242]
+        }
+      }
+
+    ]
+}
