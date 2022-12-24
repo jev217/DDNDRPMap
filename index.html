@@ -190,7 +190,7 @@
 
 
 
-
+      var test = test;
 
 
 
@@ -221,11 +221,20 @@
       "Atlas": atlas,
       "Road": road,
       "Satellite": satellite,
-      "Contrast": contrast //if u add the satelite file back, it will load in correctly.
+      "Contrast": contrast 
+   };
 
-    }
+   var testlayer = {
+    "test1":test,
+    "test2":test,
+    "test3":test
+
+   }
+
+
+
     //Create Control layer and add to map
-    var over = L.control.layers(baseLayers, overlay, {
+    var over = L.control.layers(baseLayers, overlay, testlayer, {
       collapsed: false,
       sortLayers: true,
     }).addTo(map);
