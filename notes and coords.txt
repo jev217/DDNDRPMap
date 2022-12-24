@@ -56,12 +56,6 @@ HOUSE ROBBERY COORDS
 
 
 
-
-
-
-
-
-
 =========================================
 =========================================
 BAND HINT LOCATIONS
@@ -96,7 +90,7 @@ Black Market Exchange (Jewelry Robbery)
 
 
 ==============================
-JEWELRY ROBBERYS
+JEWELRY HEISTS
 ===============================
 1.[]
 2.[]
