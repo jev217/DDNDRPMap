@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "name": "Shadowcade",
-        "desc": "",
+        "desc": "Saturdays",
         "imgname":"",
         "ptype": "Band Hints"
       },
@@ -18,7 +18,7 @@
       "type": "Feature",
       "properties": {
         "name": "Cypress Flats",
-        "desc": "",
+        "desc": "Mondays",
         "imgname":"",
         "ptype": "Band Hints"
       },
@@ -31,7 +31,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jamestown",
-        "desc": "",
+        "desc": "Tuesdays",
         "imgname":"",
         "ptype": "Band Hints"
       },
@@ -44,7 +44,7 @@
       "type": "Feature",
       "properties": {
         "name": "Lil Seoul Subway",
-        "desc": "",
+        "desc": "Fridays",
         "imgname":"",
         "ptype": "Band Hints"
       },
@@ -57,7 +57,7 @@
       "type": "Feature",
       "properties": {
         "name": "Lil Seoul Noodle Shop",
-        "desc": "",
+        "desc": "Wednesdays",
         "imgname":"",
         "ptype": "Band Hints"
       },
@@ -70,7 +70,7 @@
       "type": "Feature",
       "properties": {
         "name": "Under Del Perro Pier",
-        "desc": "",
+        "desc": "Thursdays",
         "imgname":"",
         "ptype": "Band Hints"
       },
@@ -83,7 +83,7 @@
       "type": "Feature",
       "properties": {
         "name": "Construction Site ",
-        "desc": "",
+        "desc": "Sundays",
         "imgname":"",
         "ptype": "Band Hints"
       },
