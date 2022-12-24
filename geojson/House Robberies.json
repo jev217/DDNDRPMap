@@ -17,7 +17,7 @@
       "type": "Feature",
       "properties": {
         "name": "Jamestown HR 2",
-        "imgname":"images/houserobberies/cypressflats.png",
+        "imgname":"",
         "ptype": "House Robberies"
       },
       "geometry": {
@@ -29,7 +29,7 @@
       "type": "Feature",
       "properties": {
         "name": "Mirror Park HR 1",
-        "imgname":"images/houserobberies/cypressflats.png",
+        "imgname":"",
         "ptype": "House Robberies"
       },
       "geometry": {
@@ -41,7 +41,7 @@
       "type": "Feature",
       "properties": {
         "name": "Mirror Park HR 2",
-        "imgname":"images/houserobberies/cypressflats.png",
+        "imgname":"",
         "ptype": "House Robberies"
       },
       "geometry": {
@@ -53,7 +53,7 @@
       "type": "Feature",
       "properties": {
         "name": "Mirror Park HR 3",
-        "imgname":"images/houserobberies/cypressflats.png",
+        "imgname":"",
         "ptype": "House Robberies"
       },
       "geometry": {
@@ -65,7 +65,7 @@
       "type": "Feature",
       "properties": {
         "name": "Mirror Park HR 4",
-        "imgname":"images/houserobberies/cypressflats.png",
+        "imgname":"",
         "ptype": "House Robberies"
       },
       "geometry": {
@@ -77,7 +77,7 @@
       "type": "Feature",
       "properties": {
         "name": "Mirror Park HR 5",
-        "imgname":"images/houserobberies/cypressflats.png",
+        "imgname":"",
         "ptype": "House Robberies"
       },
       "geometry": {
@@ -89,7 +89,7 @@
       "type": "Feature",
       "properties": {
         "name": "Mirror Park HR 6",
-        "imgname":"images/houserobberies/cypressflats.png",
+        "imgname":"",
         "ptype": "House Robberies"
       },
       "geometry": {
@@ -101,7 +101,7 @@
       "type": "Feature",
       "properties": {
         "name": "Mirror Park HR 7",
-        "imgname":"images/houserobberies/cypressflats.png",
+        "imgname":"",
         "ptype": "House Robberies"
       },
       "geometry": {
@@ -113,7 +113,7 @@
       "type": "Feature",
       "properties": {
         "name": "Mirror Park HR 8",
-        "imgname":"images/houserobberies/cypressflats.png",
+        "imgname":"",
         "ptype": "House Robberies"
       },
       "geometry": {
