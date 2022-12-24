@@ -10,7 +10,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [3969, 1512]
+        "coordinates": [4011, 1430]
       }
     }, 
     { 
@@ -22,7 +22,19 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [3974, 1453] 
+        "coordinates": [4036, 1520] 
+      }
+    },
+    { 
+      "type": "Feature",
+      "properties": {
+        "name": "Jamestown HR 3",
+        "imgname":"",
+        "ptype": "House Robberies"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4099, 1495] 
       }
     },
     {
