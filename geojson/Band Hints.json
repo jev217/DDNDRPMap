@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "name": "Shadowcade",
-        "desc": "Monday",
+        "description": "Monday",
         "imgname":"",
         "ptype": "Band Hints"
       },
