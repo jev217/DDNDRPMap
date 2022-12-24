@@ -114,8 +114,7 @@
         var marker = L.marker(latlng, {
           icon: icn
         });
-        marker.bindPopup("<font color=white><h4>" + feature.properties.name + '</h4>' + "<img src='" + feature.properties.imgname + "' class='popupImage'></font>");
-        return marker;
+        marker.bindPopup("<font color=white><h4>" + feature.properties.name + '</h4>' + '<h5>' + feature.properties.desc +'</h5>' + "<img src='" + feature.properties.imgname + "' class='popupImage'></font>");
       }
     })
     $.getJSON("geojson/Band Hints.json", function(data) {
@@ -134,7 +133,7 @@
         var marker = L.marker(latlng, {
           icon: icn
         });
-        marker.bindPopup("<font color=white><h4>" + feature.properties.name + '</h4>' + "<img src='" + feature.properties.imgname + "' class='popupImage'></font>");
+        marker.bindPopup("<font color=white><h4>" + feature.properties.name + '</h4>' + '<h5>' + feature.properties.desc +'</h5>' + "<img src='" + feature.properties.imgname + "' class='popupImage'></font>");
         return marker;
       }
     })
@@ -178,7 +177,7 @@
         var marker = L.marker(latlng, {
           icon: icn
         });
-        marker.bindPopup("<font color=white><h4>" + feature.properties.name + '</h4>' + "<img src='" + feature.properties.imgname + "' class='popupImage'></font>");
+        marker.bindPopup("<font color=white><h4>" + feature.properties.name + '</h4>' + '<h5>' + feature.properties.desc +'</h5>' + "<img src='" + feature.properties.imgname + "' class='popupImage'></font>");
         return marker;
       }
     })
