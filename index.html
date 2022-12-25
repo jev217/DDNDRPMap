@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
   <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
   <style>
     .leaflet-popup-content-wrapper {
       background-color: #242424;
@@ -74,8 +75,8 @@
 <title>RPDarkMap</title>
 
 <body style="background-color:#000000">
-  <div id="map" style="width: 100%; height: 100%;background-color:#000000;">
-  </div>
+  <div id="map" style="width: 100%; height: 100%;background-color:#000000;"> </div>
+  <div class= "coords"></div>
   <script>
     //Initialize Leaflet map
     var map = L.map('map', {
@@ -100,8 +101,12 @@
     map.fitBounds(bounds);
     map.setMaxBounds(bounds)
 
-    // Load each layer from it's corresponding GeoJSON file
 
+
+
+
+
+    // Load each layer from it's corresponding GeoJSON file
 
     //============BAND HINTS===============
     var bandhints = L.geoJson(null, {
@@ -277,6 +282,14 @@
         document.getElementById("map").style.background = "#6464645d";
       }
     });
+
+    map.on('click', function(e) {
+            console.log(e)
+      $('.coords').html('X: ${e.latlng.lat} Y: ${e.latlng.lng}')
+    })
+    
+
+
   </script>
 </body>
 
