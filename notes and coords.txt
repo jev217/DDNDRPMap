@@ -73,7 +73,7 @@ BAND CAR LOCATIONS
 3.[3777, 2077]  Smackdab Downtown
 4.[3879, 1672]  Southside Laundry
 5.[4473, 2147]  Mirror Park Cold Beer
-6.[3218, 2173]Electronics Company
+6.[3218, 2173]  Electronics Company
 
 
 =============================
