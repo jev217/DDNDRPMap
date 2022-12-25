@@ -283,8 +283,8 @@
       }
     });
 
-    map.on('click', function(e) {
-            console.log(e)
+    map.on('click', function(map) {
+            console.log(map)
       $('.coords').html('X: ${e.latlng.lat} Y: ${e.latlng.lng}')
     })
     
