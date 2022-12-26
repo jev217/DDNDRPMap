@@ -221,6 +221,33 @@
         "type": "Point",
         "coordinates": []
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "test",
+        "desc": "this test",
+        "imgname":"",
+        "ptype": "House Robberies"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      }
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   ]
 }
