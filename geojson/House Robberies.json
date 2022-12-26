@@ -225,8 +225,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "test",
-        "desc": "this test",
+        "name": " ",
+        "desc": " ",
         "imgname":"",
         "ptype": "House Robberies"
       },
