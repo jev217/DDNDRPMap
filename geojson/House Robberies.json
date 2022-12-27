@@ -187,55 +187,80 @@
       "type": "Feature",
       "properties": {
         "name": "Paleto HR 1",
-        "desc": " ",
-        "imgname":"images/houserobberies/cypressflats.png",
+        "desc": "Alarm: Yes",
+        "imgname":"",
         "ptype": "House Robberies"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [3484, 6836]
       }
     },
     {
       "type": "Feature",
       "properties": {
         "name": "Paleto HR 2",
-        "desc": " ",
-        "imgname":"images/houserobberies/cypressflats.png",
+        "desc": "Alarm: Yes",
+        "imgname":"",
         "ptype": "House Robberies"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [3576, 6889]
       }
     },
     {
       "type": "Feature",
       "properties": {
         "name": "Paleto HR 3",
-        "desc": " ",
-        "imgname":"images/houserobberies/cypressflats.png",
-        "ptype": "House Robberies"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": []
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": " ",
-        "desc": " ",
+        "desc": "Alarm: Yes",
         "imgname":"",
         "ptype": "House Robberies"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": []
+        "coordinates": [3727, 7045]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Paleto HR 4",
+        "desc": "Alarm: Yes",
+        "imgname":"",
+        "ptype": "House Robberies"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3747, 6982]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Del Perro Hwy",
+        "desc": "Alarm: No",
+        "imgname":"",
+        "ptype": "House Robberies"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2506, 2287]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Del Perro Hwy",
+        "desc": "Alarm: Yes",
+        "imgname":"",
+        "ptype": "House Robberies"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2469, 2318]
       }
     }
-
 
 
 
