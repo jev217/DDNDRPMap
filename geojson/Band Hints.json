@@ -69,14 +69,14 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Under Del Perro Pier",
+        "name": "Tackle St",
         "desc": "Thursdays",
         "imgname":"",
         "ptype": "Band Hints"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [2666, 1982]
+        "coordinates": [3188,1839.5]
       }
     },
     {
