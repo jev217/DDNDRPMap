@@ -232,7 +232,29 @@
       labs.addData(data);
     });
 
-    
+
+            // ==================Dead Drop Locations====================
+            var deaddrop = L.geoJson(null, {
+        pointToLayer: function(feature, latlng) {
+        //Create icon for marker
+        var icn = L.icon({
+          iconUrl: 'icons/deaddrop.png',
+          iconSize: [32, 32],
+        });
+        var marker = L.marker(latlng, {
+          icon: icn
+        });
+        marker.bindPopup("<font color=white><h4>" + feature.properties.name + '</h4>' + '<h5>' + feature.properties.desc +'</h5>' + "<img src='" + feature.properties.imgname + "' class='popupImage'></font>");
+        return marker;
+      }
+      })
+      $.getJSON("geojson/Dead Drop.json", function(data) {
+      deaddrop.addData(data);
+    });
+
+
+
+
 
 
 
@@ -244,7 +266,7 @@
       "<img src='icons/jewelryheist.png'align='center'width='30' height='30'/> Jewelry Heist": jewelryheist,
       "<img src='icons/chopshop.png'align='center'width='30' height='30'/> Chop Shop": chopshop,
       "<img src='icons/labs.png'align='center'width='30' height='30'/> Coke Labs": labs,
-      //"<img src='icons/placeholder.png'align='center'width='30' height='30'/> Unreg. Gun Market": placeholder,
+      "<img src='icons/deaddrop.png'align='center'width='30' height='30'/> Dead Drops": deaddrop,
       // "<img src='icons/placeholder.png'align='center'width='30' height='30'/> Cocaine Production": placeholder,
 
     };

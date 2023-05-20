@@ -1,3 +1,3 @@
 Future Additions
-- Dead Drop Locations
-- Thermite/C4 Locations
+- Dead Drop Locations [x]
+- Thermite/C4 Locations []
