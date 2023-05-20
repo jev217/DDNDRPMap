@@ -130,6 +130,8 @@
     });
       
     
+
+
     //=======HOUSE ROBBERIES==========
       var houserobberies = L.geoJson(null, {
       pointToLayer: function(feature, latlng) {
@@ -174,6 +176,8 @@
 
 
 
+
+
     // ==================JEWELRY HEIST====================
     var jewelryheist = L.geoJson(null, {
       pointToLayer: function(feature, latlng) {
@@ -193,6 +197,8 @@
       jewelryheist.addData(data);
     });
 
+
+
     // ==================CHOP SHOP====================
     var chopshop = L.geoJson(null, {
       pointToLayer: function(feature, latlng) {
@@ -211,6 +217,8 @@
     $.getJSON("geojson/Chop Shop.json", function(data) {
       chopshop.addData(data);
     });
+
+
 
 
         // ==================Cocaine Labs (Paste Creation/Coke Creation)====================
@@ -233,19 +241,21 @@
     });
 
 
-            // ==================Dead Drop Locations====================
-            var deaddrop = L.geoJson(null, {
-        pointToLayer: function(feature, latlng) {
-        //Create icon for marker
-        var icn = L.icon({
-          iconUrl: 'icons/deaddrop.png',
-          iconSize: [32, 32],
-        });
-        var marker = L.marker(latlng, {
-          icon: icn
-        });
-        marker.bindPopup("<font color=white><h4>" + feature.properties.name + '</h4>' + '<h5>' + feature.properties.desc +'</h5>' + "<img src='" + feature.properties.imgname + "' class='popupImage'></font>");
-        return marker;
+
+
+      // ==================Dead Drop Locations====================
+       var deaddrop = L.geoJson(null, {
+      pointToLayer: function(feature, latlng) {
+      //Create icon for marker
+      var icn = L.icon({
+        iconUrl: 'icons/deaddrop.png',
+        iconSize: [32, 32],
+      });
+      var marker = L.marker(latlng, {
+        icon: icn
+      });
+      marker.bindPopup("<font color=white><h4>" + feature.properties.name + '</h4>' + '<h5>' + feature.properties.desc +'</h5>' + "<img src='" + feature.properties.imgname + "' class='popupImage'></font>");
+      return marker;
       }
       })
       $.getJSON("geojson/Dead Drop.json", function(data) {
