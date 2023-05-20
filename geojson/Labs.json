@@ -1,0 +1,31 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Vinewood Coke Lab",
+          "desc": "This lab is used to make offwhite paste into extract, then into raw coke, to then be bagged.",
+          "imgname":"",
+          "ptype": "Labs"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [3867 , 2838.75]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Barrel Lab",
+          "desc": "This Barrel Lab is used to make tropical leaves into offwhite paste.",
+          "imgname":"",
+          "ptype": "Labs"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [4902 , 1696]
+        }
+      }
+    ] 
+}

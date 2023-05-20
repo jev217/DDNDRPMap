@@ -213,6 +213,24 @@
     });
 
 
+        // ==================Cocaine Labs (Paste Creation/Coke Creation)====================
+        var labs = L.geoJson(null, {
+        pointToLayer: function(feature, latlng) {
+        //Create icon for marker
+        var icn = L.icon({
+          iconUrl: 'icons/labs.png',
+          iconSize: [32, 32],
+        });
+        var marker = L.marker(latlng, {
+          icon: icn
+        });
+        marker.bindPopup("<font color=white><h4>" + feature.properties.name + '</h4>' + '<h5>' + feature.properties.desc +'</h5>' + "<img src='" + feature.properties.imgname + "' class='popupImage'></font>");
+        return marker;
+      }
+      })
+      $.getJSON("geojson/Labs.json", function(data) {
+      labs.addData(data);
+    });
 
     
 
@@ -225,8 +243,8 @@
       "<img src='icons/bandcars.png'align='center'width='30' height='30'/> Band Cars": bandcars,
       "<img src='icons/jewelryheist.png'align='center'width='30' height='30'/> Jewelry Heist": jewelryheist,
       "<img src='icons/chopshop.png'align='center'width='30' height='30'/> Chop Shop": chopshop,
-      //"<img src=icons/placeholder.png 'align='center'width='30' height='30'/> Black Market Exchange": placeholder,
-      // "<img src='icons/placeholder.png'align='center'width='30' height='30'/> Unreg. Gun Market": placeholder,
+      "<img src='icons/labs.png'align='center'width='30' height='30'/> Coke Labs": labs,
+      //"<img src='icons/placeholder.png'align='center'width='30' height='30'/> Unreg. Gun Market": placeholder,
       // "<img src='icons/placeholder.png'align='center'width='30' height='30'/> Cocaine Production": placeholder,
 
     };
@@ -237,7 +255,7 @@
       "Atlas": atlas,
       "Road": road,
       "Satellite": satellite,
-      "Contrast": contrast 
+      "Contrast": contrast
    };
 
 
