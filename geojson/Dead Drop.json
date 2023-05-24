@@ -258,8 +258,8 @@
         "type": "Feature",
         "properties": {
           "name": "Lil Seoul/Vesp 4",
-          "desc": " ",
-          "imgname":"",
+          "desc": " if bin isnt in spot, move to next",
+          "imgname":"images/deaddrops/dead drop bin.jpeg",
           "ptype": "Dead Drop"
         },
         "geometry": {
