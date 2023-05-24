@@ -270,6 +270,7 @@
 
     //Create titles for each layer with mini icons to add to the Control, add new check toggles here
     var overlay = {
+      
       "<img src='icons/bandhints.png'align='center'width='30' height='30' /> Band Hints": bandhints, 
       "<img src='icons/houserobberies.png'align='center'width='30' height='30'/>House Robberies": houserobberies,
       "<img src='icons/bandcars.png'align='center'width='30' height='30'/> Band Cars": bandcars,
@@ -289,8 +290,7 @@
       "Satellite": satellite,
       "Contrast": contrast
    };
-
-
+   
 
 
     //Create Control layer and add to map
@@ -320,6 +320,7 @@
       
     //When the map's base layer is changed, change the color of the background
     //to match the map
+
     map.on('baselayerchange', function(layer) {
       if (layer.name == "Road") {
         document.getElementById("map").style.background = "#1862ad";
@@ -336,6 +337,7 @@
     });
 
     //when left clicking the map on a certain spot, it displays x and y coords. for easy blip placement
+    
     map.on('click', function(e) {
             console.log(e)
       $('.coords').html(`X: ${e.latlng.lng} Y: ${e.latlng.lat} ||   ${e.latlng.lng} , ${e.latlng.lat}`)
