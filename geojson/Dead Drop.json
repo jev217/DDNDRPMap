@@ -310,13 +310,13 @@
         "type": "Feature",
         "properties": {
           "name": "Lil Seoul/Vesp 8",
-          "desc": " ",
+          "desc": "SPOT CHANGED",
           "imgname":"",
           "ptype": "Dead Drop"
         },
         "geometry": {
           "type": "Point",
-          "coordinates": [3222.5 , 2170]
+          "coordinates": []
         }
       },
 
