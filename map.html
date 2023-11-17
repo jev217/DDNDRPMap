@@ -268,7 +268,6 @@
 
     //Create titles for each layer with mini icons to add to the Control, add new check toggles here
     var overlay = {
-      
       "<img src='icons/bandhints.png'align='center'width='30' height='30' /> Band Hints": bandhints, 
       "<img src='icons/houserobberies.png'align='center'width='30' height='30'/>House Robberies": houserobberies,
       "<img src='icons/bandcars.png'align='center'width='30' height='30'/> Band Cars": bandcars,
@@ -338,7 +337,7 @@
     
     map.on('click', function(e) {
             console.log(e)
-      $('.coords').html(`X: ${e.latlng.lng} Y: ${e.latlng.lat} ||   ${e.latlng.lng} , ${e.latlng.lat}`)
+      $('.coords').html(`X: ${e.latlng.lng} Y: ${e.latlng.lat} ||   ${e.latlng.lng}, ${e.latlng.lat}`)
 
     })
     
