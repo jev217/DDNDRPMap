@@ -4,268 +4,218 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Jamestown HR 1",
+        "name": "Sandy Shores 1",
         "desc": "Alarm System: No",
         "imgname":"images/houserobberies/downtownlossantos.jpg",
         "ptype": "House Robberies"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [4011, 1430]
+        "coordinates": [4944, 5206]
       }
     }, 
     { 
       "type": "Feature",
       "properties": {
-        "name": "Jamestown HR 2",
-        "desc": "Alarm System: No ",
-        "imgname":"",
-        "ptype": "House Robberies"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [4036, 1520] 
-      }
-    },
-    { 
-      "type": "Feature",
-      "properties": {
-        "name": "Jamestown HR 3",
+        "name": "Sandy Shores 2 ",
         "desc": "Alarm System: No",
         "imgname":"",
         "ptype": "House Robberies"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [4099, 1495] 
+        "coordinates": [4984, 5165] 
       }
     },
-    {
+
+    
+
+    { 
       "type": "Feature",
       "properties": {
-        "name": "Mirror Park HR 1",
-        "desc": "Alarm System: Yes",
+        "name": "Great Ocean 1",
+        "desc": "Alarm System: No",
         "imgname":"",
         "ptype": "House Robberies"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [4405, 2195]
+        "coordinates": [2524, 2278] 
       }
     },
-    {
+    { 
       "type": "Feature",
       "properties": {
-        "name": "Mirror Park HR 2",
-        "desc": "Alarm System: Yes",
+        "name": "Great Ocean 2 ",
+        "desc": "Alarm System: No",
         "imgname":"",
         "ptype": "House Robberies"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [4391, 2312]
+        "coordinates": [2519, 2281] 
       }
     },
-    {
+    { 
       "type": "Feature",
       "properties": {
-        "name": "Mirror Park HR 3",
-        "desc": "Alarm System: Yes",
+        "name": "Great Ocean 3",
+        "desc": " ",
         "imgname":"",
         "ptype": "House Robberies"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [4350, 2351]
+        "coordinates": [2514, 2284] 
       }
     },
-    {
+    { 
       "type": "Feature",
       "properties": {
-        "name": "Mirror Park HR 4",
-        "desc": "Alarm System: Yes",
+        "name": "Great Ocean 4",
+        "desc": " ",
         "imgname":"",
         "ptype": "House Robberies"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [4428, 2357]
+        "coordinates": [2490, 2296] 
       }
     },
-    {
+    { 
       "type": "Feature",
       "properties": {
-        "name": "Mirror Park HR 5",
-        "desc": "Alarm System: Yes",
+        "name": "Great Ocean 5",
+        "desc": " ",
         "imgname":"",
         "ptype": "House Robberies"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [4480, 2346]
+        "coordinates": [2488, 2305] 
       }
     },
-    {
+
+    { 
       "type": "Feature",
       "properties": {
-        "name": "Mirror Park HR 6",
-        "desc": "Alarm System: Yes",
+        "name": "Vinewood 1",
+        "desc": " ",
         "imgname":"",
         "ptype": "House Robberies"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [4578, 2328]
+        "coordinates": [3904, 3071] 
       }
     },
-    {
+    { 
       "type": "Feature",
       "properties": {
-        "name": "Mirror Park HR 7",
-        "desc": "Alarm System: Yes",
+        "name": "Vinewood 2",
+        "desc": " ",
         "imgname":"",
         "ptype": "House Robberies"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [4648, 2314]
+        "coordinates": [3837, 3035] 
       }
     },
-    {
+    { 
       "type": "Feature",
       "properties": {
-        "name": "Mirror Park HR 8",
-        "desc": "Alarm System: Yes",
+        "name": "Vinewood 3",
+        "desc": " ",
         "imgname":"",
         "ptype": "House Robberies"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [4679, 2295]
+        "coordinates": [3833, 2996] 
       }
     },
-    {
+    { 
       "type": "Feature",
       "properties": {
-        "name": "Mirror Park HR 9",
-        "desc": "Alarm System: Yes",
+        "name": "Vinewood 4",
+        "desc": " ",
         "imgname":"",
         "ptype": "House Robberies"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [4565, 2212]
+        "coordinates": [3807, 2991] 
       }
     },
-    {
+    { 
       "type": "Feature",
       "properties": {
-        "name": "Mirror Park HR 10",
-        "desc": "Alarm System: Yes",
+        "name": "Vinewood 5",
+        "desc": " ",
         "imgname":"",
         "ptype": "House Robberies"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [4391, 2500]
+        "coordinates": [3140, 3036] 
       }
     },
-    {
+
+
+
+    { 
       "type": "Feature",
       "properties": {
-        "name": "Mirror Park HR 11",
-        "desc": "Alarm System: Yes",
+        "name": "Vespucci 1",
+        "desc": " ",
         "imgname":"",
         "ptype": "House Robberies"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [4342, 2534]
+        "coordinates": [3050, 1593] 
       }
     },
-    {
+    { 
       "type": "Feature",
       "properties": {
-        "name": "Paleto HR 1",
-        "desc": "Alarm: Yes",
+        "name": "Vespucci 2",
+        "desc": " ",
         "imgname":"",
         "ptype": "House Robberies"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [3484, 6836]
+        "coordinates": [3041, 1603] 
       }
     },
-    {
+    { 
       "type": "Feature",
       "properties": {
-        "name": "Paleto HR 2",
-        "desc": "Alarm: Yes",
+        "name": "Vespucci 3",
+        "desc": " ",
         "imgname":"",
         "ptype": "House Robberies"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [3576, 6889]
+        "coordinates": [3048, 1671] 
       }
     },
-    {
+    { 
       "type": "Feature",
       "properties": {
-        "name": "Paleto HR 3",
-        "desc": "Alarm: Yes",
+        "name": "Vespucci 4",
+        "desc": " ",
         "imgname":"",
         "ptype": "House Robberies"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [3727, 7045]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Paleto HR 4",
-        "desc": "Alarm: Yes",
-        "imgname":"",
-        "ptype": "House Robberies"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [3747, 6982]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Del Perro Hwy",
-        "desc": "Alarm: No",
-        "imgname":"",
-        "ptype": "House Robberies"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [2506, 2287]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Del Perro Hwy",
-        "desc": "Alarm: Yes",
-        "imgname":"",
-        "ptype": "House Robberies"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [2469, 2318]
+        "coordinates": [3042, 1666] 
       }
     }
-
-
-
-
-
 
 
 
