@@ -336,9 +336,8 @@
     //when left clicking the map on a certain spot, it displays x and y coords. for easy blip placement
     
     map.on('click', function(e) {
-            console.log(e)
+           console.log(e)      
       $('.coords').html(`X: ${e.latlng.lng} Y: ${e.latlng.lat} ||   ${e.latlng.lng}, ${e.latlng.lat}`)
-
     })
     
     
