@@ -96,11 +96,11 @@
     ];
     map.attributionControl.addAttribution('NDRP Dark Map');
     //Initialize each base layer
-    var atlas = L.imageOverlay('images/gtav.png', bounds)
+    var atlas = L.imageOverlay('images/gtav.png', bounds).addTo(map);
     // below loads the satelite key toggle.
     var satellite = L.imageOverlay('images/GTAV_SATELLITE_8192x8192.png', bounds) 
     var road = L.imageOverlay('images/GTAV_ROADMAP_8192x8192.png', bounds)
-    var contrast = L.imageOverlay('images/GTAVContrast_8192x8192.png', bounds).addTo(map);
+    var contrast = L.imageOverlay('images/GTAVContrast_8192x8192.png', bounds)
     map.fitBounds(bounds);
     map.setMaxBounds(bounds)
 
@@ -267,7 +267,7 @@
 
 
     //Create titles for each layer with mini icons to add to the Control, add new check toggles here
-    var overlay = {
+    var overlay =  {
       "<img src='icons/bandhints.png'align='center'width='30' height='30' /> Band Hints": bandhints, 
       "<img src='icons/houserobberies.png'align='center'width='30' height='30'/>House Robberies": houserobberies,
       "<img src='icons/bandcars.png'align='center'width='30' height='30'/> Band Cars": bandcars,
