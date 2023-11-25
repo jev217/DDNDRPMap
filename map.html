@@ -95,9 +95,9 @@
       [8192, 8192]
     ];
     map.attributionControl.addAttribution('NDRP Dark Map');
-    //Initialize each base layer
+  
+
     var atlas = L.imageOverlay('images/gtav.png', bounds).addTo(map);
-    // below loads the satelite key toggle.
     var satellite = L.imageOverlay('images/GTAV_SATELLITE_8192x8192.png', bounds) 
     var road = L.imageOverlay('images/GTAV_ROADMAP_8192x8192.png', bounds)
     var contrast = L.imageOverlay('images/GTAVContrast_8192x8192.png', bounds)
@@ -339,8 +339,6 @@
            console.log(e)      
       $('.coords').html(`X: ${e.latlng.lng} Y: ${e.latlng.lat} ||   ${e.latlng.lng}, ${e.latlng.lat}`)
     })
-    
-    
 
   </script>
 </body>
