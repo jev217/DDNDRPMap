@@ -1,0 +1,99 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      
+      
+        {
+        "type": "Feature",
+        "properties": {
+          "name": "Monday",
+          "desc": " ",
+          "imgname":"",
+          "ptype": "Dead Drop Broker"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [4036.5, 2708.5]
+        }
+        }, 
+        {
+        "type": "Feature",
+        "properties": {
+          "name": "Tuesday",
+          "desc": " ",
+          "imgname":"",
+          "ptype": ""
+        },
+         "geometry": {
+          "type": "Point",
+          "coordinates": [2904.25, 2919.5]
+        }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+              "name": "Wednesday",
+              "desc": " ",
+              "imgname":"",
+              "ptype": "Dead Drop Broker"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [4516.25, 1773]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+              "name": "Thursday",
+              "desc": " ",
+              "imgname":"",
+              "ptype": "Dead Drop Broker"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [3417.5, 749]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+              "name": "Friday",
+              "desc": " ",
+              "imgname":"",
+              "ptype": "Dead Drop Broker"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [3118.5, 1798.5]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+              "name": "Saturday",
+              "desc": " ",
+              "imgname":"",
+              "ptype": "Dead Drop Broker"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [2801.5, 2428]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+              "name": "Sunday",
+              "desc": " ",
+              "imgname":"",
+              "ptype": "Dead Drop Broker"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [3058, 2321]
+            }
+        }
+
+    ]
+}
