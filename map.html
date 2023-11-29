@@ -10,6 +10,9 @@
   <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.css" />
+  <script src="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.js"></script>
+
   <style>
     .leaflet-popup-content-wrapper {
       background-color: #242424;
@@ -86,8 +89,16 @@
       minZoom: -2,
       maxZoom: 2,
       maxBoundsViscosity: 1.0,
-      zoomControl: false
+      zoomControl: false,
+      drawControl: false
     }); 
+
+
+
+
+
+
+
     //sets map zoom controls to 'bottomleft'
     L.control.zoom({ position:'bottomleft'}).addTo(map);
     var bounds = [
@@ -262,7 +273,7 @@
 
 
           // ==================Dead Drop Broker====================
-          var deaddropbroker = L.geoJson(null, {
+      var deaddropbroker = L.geoJson(null, {
       pointToLayer: function(feature, latlng) {
       //Create icon for marker
       var icn = L.icon({
@@ -281,7 +292,20 @@
     });
 
 
-      
+    //set markers group.
+    var markers = L.layerGroup();
+    //markers custom icon png
+    var customIcon = L.icon({
+      iconUrl: 'icons/markercircle.png', // Specify the path to your custom icon image
+      iconSize: [32, 32], // Set the size of the icon
+      iconAnchor: [16, 32], // Set the anchor point for the popup relative to the icon
+      popupAnchor: [0, -32] // Set the popup anchor point relative to the icon
+    });
+
+
+
+
+
 
 
 
@@ -294,9 +318,20 @@
       "<img src='icons/chopshop.png'align='center'width='30' height='30'/> Chop Shop": chopshop,
       "<img src='icons/labs.png'align='center'width='30' height='30'/> Coke Labs": labs,
       "<img src='icons/deaddrop.png'align='center'width='30' height='30'/> Dead Drop Bins": deaddrop,
-      "<img src='icons/deaddropbroker.png'align='center'width='30' height='30'/> Dead Drop Broker": deaddropbroker,
-
+      "<img src='icons/deaddropbroker.png'align='center'width='30' height='30'/> Dead Drop Broker": deaddropbroker
     };
+
+    // Retrieve the query parameter
+    
+    var urlParams = new URLSearchParams(window.location.search);
+    var markertoggle = urlParams.get('markertoggle');
+
+    // Add the "Markers" checkbox to the control if the query parameter is present and true
+    if (markertoggle && markertoggle.toLowerCase() === 'true') {
+        overlay["Markers"] = markers;
+    }
+    
+
 
 
     //Create titles for each baselayer to add to the Control
@@ -312,8 +347,11 @@
     //Create Control layer and add to map
     var over = L.control.layers(baseLayers, overlay, {
       collapsed: false,
-      sortLayers: true,
+      sortLayers: false,
     }).addTo(map);
+
+
+
 
     /* Add GTAV logo to lower left hand corner
     L.Control.Watermark = L.Control.extend({
@@ -333,10 +371,56 @@
     L.control.watermark({
       position: 'bottomleft'
     }).addTo(map); */
-      
-    //When the map's base layer is changed, change the color of the background
-    //to match the map
 
+    // Create a function to handle marker removal
+
+    var marker;
+
+    function removeMarker(marker) {
+    markers.removeLayer(marker);
+    }
+
+
+    //markers click functionality
+    map.on('click', function (e) {
+      if (markersAdded) {
+        var lat = Math.round(e.latlng.lat);
+        var lng = Math.round(e.latlng.lng);
+        var marker = L.marker(e.latlng, { draggable: true, icon: customIcon }).addTo(markers);
+        marker.bindPopup("<font color=white>X: " + lat + '<br>Y: ' + lng + "</font>").openPopup();
+
+        marker.on('dragend', function (event) {
+          var marker = event.target;
+          var position = marker.getLatLng();
+          marker.setPopupContent("<font color=white>X: " + position.lat + '<br>Y: ' + position.lng + "</font>").openPopup();
+        });
+
+      // Double click event listener for marker removal (NEWWWW)==================================
+      marker.on('contextmenu', function () {
+      removeMarker(marker);
+    });
+
+      }
+    });
+
+
+    var markersAdded = false;
+
+    map.on('overlayadd', function (eventLayer) {
+      if (eventLayer.name === 'Markers') {
+        markersAdded = true;
+      }
+    });
+
+    map.on('overlayremove', function (eventLayer) {
+      if (eventLayer.name === 'Markers') {
+        markers.clearLayers();
+        markersAdded = false;
+        removeDeleteSelectedButtonFromControl();
+      }
+    });
+
+    //BASE LAYER CHANGE
     map.on('baselayerchange', function(layer) {
       if (layer.name == "Road") {
         document.getElementById("map").style.background = "#1862ad";
@@ -354,13 +438,12 @@
 
     //when left clicking the map on a certain spot, it displays x and y coords. for easy blip placement
     
-    map.on('click', function(e) {
-           console.log(e)      
-      $('.coords').html(`X: ${e.latlng.lng} Y: ${e.latlng.lat} ||   ${e.latlng.lng}, ${e.latlng.lat}`)
-    })
+
+   // map.on('click', function(e) {
+     //      console.log(e)      
+     // $('.coords').html(`X: ${e.latlng.lng} Y: ${e.latlng.lat} ||   ${e.latlng.lng}, ${e.latlng.lat}`)
+    // })
 
   </script>
 </body>
-
-
 </html>

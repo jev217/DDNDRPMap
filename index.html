@@ -50,8 +50,11 @@
     <div class="container">
         <h2>Login</h2>
         <form id="login-form">
-            <input type="text" id="username" placeholder="Username" required>
-            <input type="password" id="password" placeholder="Password" required>
+            <input type="text" id="username" placeholder="Username"  required>
+            <input type="password" id="password" placeholder="Password"  required>
+            <label>
+                <input type="checkbox" id="markertoggle"/> Markers?
+            </label>
             <input type="submit" value="Login">
         </form>
     </div>
@@ -65,10 +68,15 @@
             var username = document.getElementById('username').value;
             var password = document.getElementById('password').value;
 
+            var markertoggle = document.getElementById('markertoggle').checked;
             // Perform validation (Replace with your own logic)
             if (username === ' ' && password === ' ') {
                 // Redirect to the map page on successful login
+                if (markertoggle) {
+                    window.location.href = 'map.html?markertoggle=true';
+                }else {
                 window.location.href = 'map.html';
+            } 
             } else {
                 alert('Invalid username or password. Please try again.');
             }
