@@ -329,6 +329,7 @@
     var bandstoggle= urlParams.get('bandstoggle');
     var housetoggle= urlParams.get('housetoggle');
     var jewelstoggle= urlParams.get('jewelstoggle');
+    var chopshoptoggle= urlParams.get('chopshoptoggle');
 
     if (bandstoggle && bandstoggle.toLowerCase() === 'true') {
       overlay["<img src='icons/bandhints.png'align='center'width='30' height='30' /> Band Hints"] = bandhints;
@@ -347,6 +348,10 @@
      
     if (jewelstoggle && jewelstoggle.toLowerCase() === 'true'){
       overlay["<img src='icons/jewelryheist.png'align='center'width='30' height='30'/> Jewelry Heist"]= jewelryheist;
+    }
+
+    if(chopshoptoggle && chopshoptoggle.toLowerCase() === 'true'){
+      overlay["<img src='icons/chopshop.png'align='center'width='30' height='30'/> Chop Shop"] = chopshop;
     }
 
      // Add the "Markers" checkbox to the control if the query parameter is present and true

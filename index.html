@@ -43,6 +43,11 @@
             border-radius: 4px;
             cursor: pointer;
         }
+
+        hr.solid {
+            border: 1px solid #000000;
+        }
+
     </style>
 </head>
 <body>
@@ -50,8 +55,10 @@
     <div class="container">
         <h2>Login</h2>
         <form id="login-form">
+           
             <input type="text" id="username" placeholder="Username"  required>
             <input type="password" id="password" placeholder="Password"  required>
+            <hr class="solid">
             <label>
                 <input type="checkbox" id="bandstoggle"/> B |
             </label>
@@ -65,9 +72,13 @@
                 <input type="checkbox" id="jewelstoggle"/> J |
             </label>
             <label>
+                <input type="checkbox" id="chopshoptoggle"/> CS |
+            </label>
+            <br>
+            <label>
                 <input type="checkbox" id="markertoggle"/> Marker
             </label>
-            <br><br>
+            <hr class="solid">
             <input type="submit" value="Login">
         </form>
     </div>
@@ -86,6 +97,7 @@
             var bandstoggle = document.getElementById('bandstoggle').checked;
             var housetoggle = document.getElementById('housetoggle').checked;
             var jewelstoggle = document.getElementById('jewelstoggle').checked;
+            var chopshoptoggle = document.getElementById('chopshoptoggle').checked;
 
             //more variables here for more checkboxes
 
@@ -97,7 +109,8 @@
                     '&coketoggle=' + coketoggle + 
                     '&bandstoggle=' + bandstoggle + 
                     '&housetoggle=' + housetoggle + 
-                    '&jewelstoggle=' + jewelstoggle;
+                    '&jewelstoggle=' + jewelstoggle +
+                    '&chopshoptoggle=' + chopshoptoggle;
 
                  window.location.href = redirectURL;
             } else {
