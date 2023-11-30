@@ -6,7 +6,7 @@
       "properties": {
         "name": "Sandy Shores 1",
         "desc": "Alarm System: No",
-        "imgname":"images/houserobberies/downtownlossantos.jpg",
+        "imgname":"images/houserobberies/SS1.jpeg",
         "ptype": "House Robberies"
       },
       "geometry": {
@@ -19,7 +19,7 @@
       "properties": {
         "name": "Sandy Shores 2 ",
         "desc": "Alarm System: No",
-        "imgname":"",
+        "imgname":"images/houserobberies/SS2.jpeg",
         "ptype": "House Robberies"
       },
       "geometry": {
@@ -34,8 +34,8 @@
       "type": "Feature",
       "properties": {
         "name": "Great Ocean 1",
-        "desc": "Alarm System: No",
-        "imgname":"",
+        "desc": "Alarm System: Yes | In Garage",
+        "imgname":"images/houserobberies/GO1.png",
         "ptype": "House Robberies"
       },
       "geometry": {
@@ -46,9 +46,9 @@
     { 
       "type": "Feature",
       "properties": {
-        "name": "Great Ocean 2 ",
-        "desc": "Alarm System: No",
-        "imgname":"",
+        "name": "Great Ocean 2",
+        "desc": "Alarm System: Yes | Side of House",
+        "imgname":"images/houserobberies/GO2.png",
         "ptype": "House Robberies"
       },
       "geometry": {
@@ -60,8 +60,8 @@
       "type": "Feature",
       "properties": {
         "name": "Great Ocean 3",
-        "desc": " ",
-        "imgname":"",
+        "desc": "Alarm System: Yes | Side of House",
+        "imgname":"images/houserobberies/GO3.png",
         "ptype": "House Robberies"
       },
       "geometry": {
@@ -73,8 +73,8 @@
       "type": "Feature",
       "properties": {
         "name": "Great Ocean 4",
-        "desc": " ",
-        "imgname":"",
+        "desc": "Alarm System: Yes | Back Door",
+        "imgname":"images/houserobberies/GO4.png",
         "ptype": "House Robberies"
       },
       "geometry": {
@@ -86,8 +86,8 @@
       "type": "Feature",
       "properties": {
         "name": "Great Ocean 5",
-        "desc": " ",
-        "imgname":"",
+        "desc": "Alarm System: Yes | Side of house",
+        "imgname":"images/houserobberies/GO5.png",
         "ptype": "House Robberies"
       },
       "geometry": {
@@ -100,8 +100,8 @@
       "type": "Feature",
       "properties": {
         "name": "Vinewood 1",
-        "desc": " ",
-        "imgname":"",
+        "desc": "Alarm System: Yes",
+        "imgname":"images/houserobberies/Vinewood1.jpeg",
         "ptype": "House Robberies"
       },
       "geometry": {
@@ -113,8 +113,8 @@
       "type": "Feature",
       "properties": {
         "name": "Vinewood 2",
-        "desc": " ",
-        "imgname":"",
+        "desc": "Alarm System: Yes",
+        "imgname":"images/houserobberies/Vinewood2.jpeg",
         "ptype": "House Robberies"
       },
       "geometry": {
@@ -126,8 +126,8 @@
       "type": "Feature",
       "properties": {
         "name": "Vinewood 3",
-        "desc": " ",
-        "imgname":"",
+        "desc": "Alarm System: Yes | Shared 3 & 4",
+        "imgname":"images/houserobberies/Vinewood3.jpeg",
         "ptype": "House Robberies"
       },
       "geometry": {
@@ -139,8 +139,8 @@
       "type": "Feature",
       "properties": {
         "name": "Vinewood 4",
-        "desc": " ",
-        "imgname":"",
+        "desc": "Alarm System: Yes | Shared 3 & 4",
+        "imgname":"images/houserobberies/Vinewood4.jpeg",
         "ptype": "House Robberies"
       },
       "geometry": {
@@ -152,8 +152,8 @@
       "type": "Feature",
       "properties": {
         "name": "Vinewood 5",
-        "desc": " ",
-        "imgname":"",
+        "desc": "Alarm System: Yes",
+        "imgname":"images/houserobberies/Vinewood5.jpeg",
         "ptype": "House Robberies"
       },
       "geometry": {
@@ -168,8 +168,8 @@
       "type": "Feature",
       "properties": {
         "name": "Vespucci 1",
-        "desc": " ",
-        "imgname":"",
+        "desc": "Alarm System: No",
+        "imgname":"images/houserobberies/Vespucci1.png",
         "ptype": "House Robberies"
       },
       "geometry": {
@@ -181,8 +181,8 @@
       "type": "Feature",
       "properties": {
         "name": "Vespucci 2",
-        "desc": " ",
-        "imgname":"",
+        "desc": "Alarm System: No",
+        "imgname":"images/houserobberies/Vespucci2.jpeg",
         "ptype": "House Robberies"
       },
       "geometry": {
@@ -194,8 +194,8 @@
       "type": "Feature",
       "properties": {
         "name": "Vespucci 3",
-        "desc": " ",
-        "imgname":"",
+        "desc": "Alarm System: Yes",
+        "imgname":"images/houserobberies/Vespucci3.png",
         "ptype": "House Robberies"
       },
       "geometry": {
@@ -207,8 +207,8 @@
       "type": "Feature",
       "properties": {
         "name": "Vespucci 4",
-        "desc": " ",
-        "imgname":"",
+        "desc": "Alarm System: Yes | Back Door",
+        "imgname":"images/houserobberies/Vespucci4.png",
         "ptype": "House Robberies"
       },
       "geometry": {
