@@ -1,10 +1,10 @@
-#About
+# About
 This darkmap is used for providing criminals locations to all things appropriate around their map. 
 
-###Login Checkboxes 
+### Login Checkboxes 
 These checkboxes give the map data to be shown on the map key controls and to reduce key clutter. 
 
-###Legend:
+### Legend:
 B = Band Running Related Data 
 C = Coke Production Related Data
 HR = House Robberies Data
