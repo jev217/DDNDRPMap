@@ -53,8 +53,21 @@
             <input type="text" id="username" placeholder="Username"  required>
             <input type="password" id="password" placeholder="Password"  required>
             <label>
-                <input type="checkbox" id="markertoggle"/> Markers?
+                <input type="checkbox" id="bandstoggle"/> B |
             </label>
+            <label>
+                <input type="checkbox" id="coketoggle"/> C |
+            </label>
+            <label>
+                <input type="checkbox" id="housetoggle"/> HR |
+            </label>
+            <label>
+                <input type="checkbox" id="jewelstoggle"/> J |
+            </label>
+            <label>
+                <input type="checkbox" id="markertoggle"/> Marker
+            </label>
+            <br><br>
             <input type="submit" value="Login">
         </form>
     </div>
@@ -69,14 +82,24 @@
             var password = document.getElementById('password').value;
 
             var markertoggle = document.getElementById('markertoggle').checked;
+            var coketoggle = document.getElementById('coketoggle').checked; 
+            var bandstoggle = document.getElementById('bandstoggle').checked;
+            var housetoggle = document.getElementById('housetoggle').checked;
+            var jewelstoggle = document.getElementById('jewelstoggle').checked;
+
+            //more variables here for more checkboxes
+
             // Perform validation (Replace with your own logic)
             if (username === ' ' && password === ' ') {
                 // Redirect to the map page on successful login
-                if (markertoggle) {
-                    window.location.href = 'map.html?markertoggle=true';
-                }else {
-                window.location.href = 'map.html';
-            } 
+                var redirectURL = 
+                    'map.html?markertoggle=' + markertoggle + 
+                    '&coketoggle=' + coketoggle + 
+                    '&bandstoggle=' + bandstoggle + 
+                    '&housetoggle=' + housetoggle + 
+                    '&jewelstoggle=' + jewelstoggle;
+
+                 window.location.href = redirectURL;
             } else {
                 alert('Invalid username or password. Please try again.');
             }

@@ -83,6 +83,8 @@
   <div id="map" style="width: 100%; height: 100%;background-color:#000000;"> </div>
   <div class="coords" style="color:white"></div>
   <script>
+
+
     //Initialize Leaflet map
     var map = L.map('map', {
       crs: L.CRS.Simple,
@@ -93,25 +95,22 @@
       drawControl: false
     }); 
 
-
-
-
-
-
-
     //sets map zoom controls to 'bottomleft'
     L.control.zoom({ position:'bottomleft'}).addTo(map);
+
     var bounds = [
       [0, 0],
       [8192, 8192]
     ];
+
+    //bottom right label
     map.attributionControl.addAttribution('NDRP Dark Map');
   
 
-    var atlas = L.imageOverlay('images/gtav.png', bounds).addTo(map);
-    var satellite = L.imageOverlay('images/GTAV_SATELLITE_8192x8192.png', bounds) 
-    var road = L.imageOverlay('images/GTAV_ROADMAP_8192x8192.png', bounds)
-    var contrast = L.imageOverlay('images/GTAVContrast_8192x8192.png', bounds)
+    var atlas = L.imageOverlay('images/map/gtav.png', bounds).addTo(map);
+    var satellite = L.imageOverlay('images/map/GTAV_SATELLITE_8192x8192.png', bounds) 
+    var road = L.imageOverlay('images/map/GTAV_ROADMAP_8192x8192.png', bounds)
+    var contrast = L.imageOverlay('images/map/GTAVContrast_8192x8192.png', bounds)
     map.fitBounds(bounds);
     map.setMaxBounds(bounds)
 
@@ -311,26 +310,52 @@
 
     //Create titles for each layer with mini icons to add to the Control, add new check toggles here
     var overlay =  {
-      "<img src='icons/bandhints.png'align='center'width='30' height='30' /> Band Hints": bandhints, 
-      "<img src='icons/houserobberies.png'align='center'width='30' height='30'/>House Robberies": houserobberies,
-      "<img src='icons/bandcars.png'align='center'width='30' height='30'/> Band Cars": bandcars,
-      "<img src='icons/jewelryheist.png'align='center'width='30' height='30'/> Jewelry Heist": jewelryheist,
-      "<img src='icons/chopshop.png'align='center'width='30' height='30'/> Chop Shop": chopshop,
-      "<img src='icons/labs.png'align='center'width='30' height='30'/> Coke Labs": labs,
-      "<img src='icons/deaddrop.png'align='center'width='30' height='30'/> Dead Drop Bins": deaddrop,
-      "<img src='icons/deaddropbroker.png'align='center'width='30' height='30'/> Dead Drop Broker": deaddropbroker
+      //"<img src='icons/bandhints.png'align='center'width='30' height='30' /> Band Hints": bandhints, 
+      //"<img src='icons/houserobberies.png'align='center'width='30' height='30'/>House Robberies": houserobberies,
+      //"<img src='icons/bandcars.png'align='center'width='30' height='30'/> Band Cars": bandcars,
+      //"<img src='icons/jewelryheist.png'align='center'width='30' height='30'/> Jewelry Heist": jewelryheist,
+      //"<img src='icons/chopshop.png'align='center'width='30' height='30'/> Chop Shop": chopshop
+      //"<img src='icons/labs.png'align='center'width='30' height='30'/> Coke Labs": labs,
+      //"<img src='icons/deaddrop.png'align='center'width='30' height='30'/> Dead Drop Bins": deaddrop,
+      //"<img src='icons/deaddropbroker.png'align='center'width='30' height='30'/> Dead Drop Broker": deaddropbroker
+      // "lit": locations
     };
 
     // Retrieve the query parameter
     
     var urlParams = new URLSearchParams(window.location.search);
     var markertoggle = urlParams.get('markertoggle');
+    var coketoggle = urlParams.get('coketoggle');
+    var bandstoggle= urlParams.get('bandstoggle');
+    var housetoggle= urlParams.get('housetoggle');
+    var jewelstoggle= urlParams.get('jewelstoggle');
 
-    // Add the "Markers" checkbox to the control if the query parameter is present and true
+    if (bandstoggle && bandstoggle.toLowerCase() === 'true') {
+      overlay["<img src='icons/bandhints.png'align='center'width='30' height='30' /> Band Hints"] = bandhints;
+      overlay["<img src='icons/bandcars.png'align='center'width='30' height='30'/> Band Cars"]= bandcars;
+    }
+
+    if (coketoggle && coketoggle.toLowerCase() === 'true') {
+    overlay["<img src='icons/labs.png'align='center'width='30' height='30'/> Coke Labs"] = labs;
+    overlay["<img src='icons/deaddrop.png'align='center'width='30' height='30'/> Dead Drop Bins"] = deaddrop;
+    overlay["<img src='icons/deaddropbroker.png'align='center'width='30' height='30'/> Dead Drop Broker"] = deaddropbroker;
+    }
+
+    if (housetoggle && housetoggle.toLowerCase() === 'true') {
+      overlay["<img src='icons/houserobberies.png'align='center'width='30' height='30'/>House Robberies"] = houserobberies;
+    }
+     
+    if (jewelstoggle && jewelstoggle.toLowerCase() === 'true'){
+      overlay["<img src='icons/jewelryheist.png'align='center'width='30' height='30'/> Jewelry Heist"]= jewelryheist;
+    }
+
+     // Add the "Markers" checkbox to the control if the query parameter is present and true
     if (markertoggle && markertoggle.toLowerCase() === 'true') {
         overlay["Markers"] = markers;
     }
-    
+
+
+
 
 
 
