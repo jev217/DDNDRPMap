@@ -297,7 +297,7 @@
     var customIcon = L.icon({
       iconUrl: 'icons/markercircle.png', // Specify the path to your custom icon image
       iconSize: [32, 32], // Set the size of the icon
-      iconAnchor: [16, 32], // Set the anchor point for the popup relative to the icon
+      iconAnchor: [0, 16], // Set the anchor point for the popup relative to the icon
       popupAnchor: [0, -32] // Set the popup anchor point relative to the icon
     });
 
@@ -417,12 +417,12 @@
         var lat = Math.round(e.latlng.lat);
         var lng = Math.round(e.latlng.lng);
         var marker = L.marker(e.latlng, { draggable: true, icon: customIcon }).addTo(markers);
-        marker.bindPopup("<font color=white>X: " + lat + '<br>Y: ' + lng + "</font>").openPopup();
+        marker.bindPopup("<font color=white> " + lng + ', ' + lat + "</font>").openPopup();
 
         marker.on('dragend', function (event) {
           var marker = event.target;
           var position = marker.getLatLng();
-          marker.setPopupContent("<font color=white>X: " + position.lat + '<br>Y: ' + position.lng + "</font>").openPopup();
+          marker.setPopupContent("<font color=white> " + position.lng + ', ' + position.lat + "</font>").openPopup();
         });
 
       // Double click event listener for marker removal (NEWWWW)==================================
